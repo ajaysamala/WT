@@ -1,0 +1,15 @@
+table {border: 3px solid;
+	   background-color: pink;
+	   padding: 5px;
+	   border-spacing:10px;
+	   border-color: yellow;
+	   width: 550px;
+	   height: 300px;
+}
+
+th,td{border: 1px solid yellow
+}
+
+caption {font-size: x-large;
+	     font-weight:bold
+}

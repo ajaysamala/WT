@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		CSS Internal styling Demo
+	</title>
+    <style >
+		table {
+			border: 3px solid;
+			background-color: pink;
+			padding: 5px;
+			border-spacing: 10px;
+			border-color: yellow;
+			width: 550px;
+			height: 300px;
+		}
+
+		th,
+		td {
+			border: 1px solid yellow
+		}
+
+		caption {
+			font-size: x-large;
+			font-weight: bold
+		}
+	</style>
+    
+    
+
+</head>
+     
+<body>
+    <p><b>Name  : S.Ajay</b></p>
+    <p><b>Roll No  : 1602-17-737-005</b></p>
+    
+	<table>
+		<caption>
+			Student Marks
+		</caption>
+		<tr>
+			<th>Subject Name</th>
+			<th>Student Name</th>
+			<th>Roll No</th>
+			<th>Marks</th>
+		</tr>
+		<tr>
+			<td rowspan="2">WT</td>
+			<td>Ramesh</td>
+			<td>7001</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>7002</td>
+			<td>75</td>
+		</tr>
+		<tr>
+			<td>Sum</td>
+			<td colspan="3">Total marks</td>
+		</tr>
+	</table>
+</body>
+</html>
